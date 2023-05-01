@@ -1,0 +1,2 @@
+1. The bug is the fact that `calculateSum()` does addition between two `string` type elements. As a result, the value of the addition is a string concatenation between num1 and num2 and not an addition between numbers.
+2. You would fix it by making sure that you are doing arithmetic between number type and not string type. This can be fixed by using `parseInt(string)` function which will convert a string to a number
